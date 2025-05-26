@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+</head>
+<body>    
+<!--navbar -->
+    <section id="navbar">
+        <a href="Home">Home</a>
+        <a href="About">About</a>
+        <a href="contacts">Contacts</a>
+        <a href="Download CV">Download Cv</a>
+    </section>
+    <section id="Home">
+        <h1>samuel watua</h1>
+        <p>Microprocessor Engineer | software Engineer</p>
+        <img src="myimage.jpg" alt="my photo"/>
+    </section>
+    
+    <section id="About">
+        <h2>About me</h2>
+        <p>lam a graduate in Microprocessor and Instrumentation Technology.
+            lam passionate about programming to solve instrumentation solutions through innovation.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Technical</h3>
+        <ul>
+            <li>LInux, shell scripting</li>
+            <li>Github, splunk, wireshark</li>
+            <li>TCP/IP, VPNS, IDS, IPS</li>
+            <li>HTML, SQL</li>
+            <li>Excel, ms word</li>
+        </ul>
+        <h3>Non-Technical</h3>
+        <ul>
+            <li>communication</li>
+            <li>problem solving</li>
+            <li>Attention to detail</li>
+            <li>Team leadership</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>projects</h2>
+        <div>
+
+            <h3>Smart Trolley</h3>
+            <img src="smart trolley.jpeg" alt="smart trolley">
+            <p>Led a team in conceptualizing and implementing a Smart Trolley system aimed at minimizing long queues in supermarkets through a self-checkout mechanism
+            Spearheaded the integration of the Daraja API Payment System into the Smart Trolley project
+            </p>
+            <p><strong>Technologies:</strong>Embedded systems, Api integration</p>
+        </div>
+        <div>
+            <h3>career connect database</h3>
+            <img src="career.png" alt="sql queering">
+            <p>spearheaded the development of the Career Connect database using SQL, aimed at enhancing student career.
+                Led the team in the normalization of the database, ensuring optimal data organization and reducing redundancy.
+            </p>
+            <p><strong>Technologies</strong>SQL,Database design</p>
+        </div>
+    </section>
+
+    <section id="Contacts">
+        <h3>Contact me</h3>
+        <form method="Post" action="mailto:samuelsoita79@gmail.com">
+            <label for="f-name">firstname:</label>
+            <input type="text" id="f-name" value="f-name" name="l-name" required><br>
+        
+            <label for="l-name">lastname:</label>
+            <input type="text" id="l-name" value="l-name" name="l-name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="email" ><br>
+            
+            <label for="message">message:</label>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea>
+
+            <input type="submit" value="submit">
+
+        </form>
+    </section>
+</body>
+</html>
